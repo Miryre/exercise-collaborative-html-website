@@ -1,3 +1,29 @@
 body {
   background: #BDBDBD;
 }
+
+img{
+   border-radius: 50%; 
+   padding: 20px;
+}
+
+.custom-card {
+      /* width: 100%; */
+      max-width: 50px;
+      margin: auto;
+    }
+ .gray-text {
+        color: gray;
+        text-align: left;
+    }
+.card-body{
+    margin-left:0;
+    padding-left:none;
+}
+.card{
+    padding-left:1px;
+}
+
+img{
+    border-radius: 150px;
+}
