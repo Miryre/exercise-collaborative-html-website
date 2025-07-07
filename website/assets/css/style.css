@@ -1,20 +1,3 @@
 body {
   background: #BDBDBD;
 }
-
-.jumbotron-bg {
-  background-image: url('../img/bg.jpg');
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  color: white;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-
-
-
-
