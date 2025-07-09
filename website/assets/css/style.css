@@ -18,9 +18,7 @@ body {
 
 
 
-body {
-  background: #BDBDBD;
-}
+
 
 img{
    border-radius: 50%; 
@@ -54,16 +52,7 @@ margin: 0;
 padding: 40px;
 background-color: white
 }
-.container{
-display: flex;
-justify-content: space-between;
-align-items: center;
-max-width: 900px;
-margin: auto;
-border: 2px solid red;
-padding: 30px;
-background-color: white;
-}
+
 .text-section{
     flex: 1;
     padding: 40px;
@@ -87,19 +76,4 @@ background-color: white;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid green;
-} */
- card{
-    paddiing:10px;
- }
- .gray-text {
-    color: gray;
- }
- .card-body{
-    display: flex;
-    /* justify-content: space-around; */
- }
- img{
-    border-radius: 50%;
-    height: 200px;
-    /* justify-content: flex-end */
- }
+} 
