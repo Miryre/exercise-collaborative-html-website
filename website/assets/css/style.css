@@ -1,5 +1,25 @@
-body{
-    background: #BDBDBD;
+body {
+  background: #BDBDBD;
+}
+
+.jumbotron-bg {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+
+body {
+  background: #BDBDBD;
 }
 
 img{
@@ -28,19 +48,58 @@ img{
     border-radius: 150px;
 }
 
-.jumbotron-bg {
-  background-image: url('../img/bg.jpg');
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  color: white;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  position: relative;
+.body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 40px;
+background-color: white
 }
-
-
-
-
-
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 900px;
+margin: auto;
+border: 2px solid red;
+padding: 30px;
+background-color: white;
+}
+.text-section{
+    flex: 1;
+    padding: 40px;
+}
+.text-section h1{
+    font-size: 2em;
+    color: black;
+    margin-bottom: 15px;
+}
+.text-section p{
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+.image-section{
+    flex-shrink: 0;
+}
+.image-section{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid green;
+} */
+ card{
+    paddiing:10px;
+ }
+ .gray-text {
+    color: gray;
+ }
+ .card-body{
+    display: flex;
+    /* justify-content: space-around; */
+ }
+ img{
+    border-radius: 50%;
+    height: 200px;
+    /* justify-content: flex-end */
+ }
